@@ -11,12 +11,12 @@ client = Octokit::Client.new(:access_token => $api_key)
 #   puts repo.name
 #   puts repo.id
 # end
-#
+
 
 
 # 1. Get a project
 #create a project
-#client.create_project('jrussell416/project-repo', 'project1')
+client.create_project('jrussell416/project_board', 'project1')
 
 # 2.Get a project column
 #-list project board names and id
