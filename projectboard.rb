@@ -11,6 +11,8 @@ client = Octokit::Client.new(:access_token => $api_key)
 #   puts repo.name
 #   puts repo.id
 # end
+#
+
 
 # 1. Get a project
 #create a project
@@ -27,11 +29,11 @@ client = Octokit::Client.new(:access_token => $api_key)
 # #-create project column
 # client.create_project_column(14596395, 'Test Complete')
 #list project columns id
-columns = client.project_columns(14596395)
-for column in columns do
-  puts column.id
-  puts column.name
-end
+# columns = client.project_columns(14596395)
+# for column in columns do
+#   puts column.id
+#   puts column.name
+# end
 
 # 3.Get a project card
 
